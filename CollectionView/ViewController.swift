@@ -32,7 +32,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
     {
         var cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as HomeCollectionViewCell
-        cell.imageView.image = UIImage(named:images[indexPath.row])
+        cell.imageView?.image = UIImage(named:images[indexPath.row])
         return cell
     }
     
