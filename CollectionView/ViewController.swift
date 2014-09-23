@@ -8,7 +8,7 @@
 
 import UIKit
 
-var images = String[]()
+var images = [String]()
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
                             
